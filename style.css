@@ -81,6 +81,7 @@ input, select {
 }
 
 .error {
+    display: none;
     font-size: 18px;
     color: rgb(199, 63, 29);
     text-align: center;

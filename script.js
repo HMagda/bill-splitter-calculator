@@ -29,10 +29,10 @@ function calculateBill() {
 }
 
 function calculateBillWithTip() {
-  let BillwithTip =
+  let BillWithTip =
     (Number(price.value) + Number(price.value) * Number(tip.value)) /
     Number(people.value);
   costInfo.style.display = 'block';
   error.style.display = 'none';
-  cost.textContent = BillwithTip.toFixed(2);
+  cost.textContent = BillWithTip.toFixed(2);
 }
